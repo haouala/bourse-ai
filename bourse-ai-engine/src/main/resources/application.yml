@@ -1,0 +1,16 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: bourse-ai-engine
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+engine:
+  capital-eur: 1000
+  horizon-months: 6
+  maximum-universe: 500
+  max-positions: 5
+  risk-per-trade-eur: 5
